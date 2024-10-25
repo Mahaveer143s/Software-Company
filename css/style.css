@@ -539,3 +539,43 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.custom-card {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+  .custom-count {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  .custom-card-title {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  .carousel-item {
+    height: 300px; /* Adjust height as needed */
+}
+
+.case-item {
+    height: 100%; /* Ensure cards take full height of the carousel */
+}
+
+.case-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
