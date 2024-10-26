@@ -1,0 +1,38 @@
+
+
+/* Adjustments for different screen sizes */
+/* Large screens (desktops) */
+@media (min-width: 992px) {
+    .navbar-nav {
+        justify-content: center; /* Centers the nav items on large screens */
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .custom-dropdown-menu {
+        margin-top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .custom-dropdown-menu {
+        position: relative;
+        left: auto;
+        transform: none;
+        margin: 0 auto;
+        min-width: 100%;
+    }
+}

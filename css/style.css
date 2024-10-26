@@ -563,19 +563,69 @@ h6,
     font-size: 1.25rem;
     color: #333;
   }
-  .carousel-item {
-    height: 300px; /* Adjust height as needed */
+  .innovation-redesign-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
-.case-item {
-    height: 100%; /* Ensure cards take full height of the carousel */
+.innovation-item {
+    overflow: hidden;
+    
+    box-shadow: 0 8px 16px rgba(18, 152, 255, 0.2);
+    border-bottom: 1px solid rgb(138, 154, 255);
+    transition: transform 0.3s;
+    background-color: #fff;
+}
+.inno-border-left{
+
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+.inno-border-right{
+
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
 }
 
-.case-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+.innovation-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(18, 152, 255, 0.2);
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.content-block {
+    padding: 15px;
+}
+
+.content-block h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-block p {
+    font-size: 0.95em;
+    color: #666;
+}
+
+.image-block {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+.custom-dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    min-width: 200px; /* Ensures a consistent dropdown width */
 }

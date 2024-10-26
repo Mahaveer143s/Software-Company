@@ -57,9 +57,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu custom-dropdown-menu rounded-0" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/custom-software-development">Custom Software Development</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/web-development">Web Development</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/dedicated-development-team">Dedicated Development Team</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/product-development-maintenance">Software Product Development</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/ecommerce-development">Ecommerce Development</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/mobile-app-development">Mobile App Development</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/testing-qa">Software Testing &amp; QA</a></li>
+                                <li><a class="dropdown-item" href="https://www.tatvasoft.com/software-development-services/ui-ux-design-services">UI/UX Design</a></li>
+                            </ul>
+                        </li>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="project.html" class="nav-item nav-link">Projects</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -347,46 +360,154 @@
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
-                <h1 class="mb-4">Explore Our Recent Software Case Studies</h1>
+                <h1 class="mb-4">Explore Our Recent Case Studies</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+            <div class="row g-3">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
                         <img class="img-fluid" src="img/project-1.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Robotic Automation</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/smart-city/">
+                            <h5 class="lh-base text-white mb-3">Smart City</h5>
+                            <small>Energy & Utility</small>
+                        
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
                         <img class="img-fluid" src="img/project-2.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Machine learning</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/online-learning-for-schools/">
+                            <h5 class="lh-base text-white mb-3">Online Learning for Schools</h5>
+                            <small>Education</small>
+                        
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
                         <img class="img-fluid" src="img/project-3.jpg" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small>Predictive Analysis</small>
-                            <h5 class="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
-                            </h5>
-                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Reinsurance System</h5>
+                            <small>Finance</small>
+                           
                         </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Hotel Booking System</h5>
+                            <small>Travel & Hospitality</small>
+                          
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Media Distribution & Aggregation Platform</h5>
+                            <small>Media & Entertainment</small>
+                         
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Point Of Sales</h5>
+                            <small>Retail & E-commerce</small>
+                          
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Logistics & Transportation</h5>
+                            
+                            <small>Global Logistics Solution</small>
+                        </a>
+                    </div>
+                </div><div class="col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded-1 mb-2">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="https://www.tatvasoft.com/portfolio/reinsurance-system/">
+                            <h5 class="lh-base text-white mb-3">Organ Transplant Care</h5>
+                            
+                            <small>Healthcare</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Case End -->
+
+
+    <!-- why choose us  -->
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Our Innovative Solutions</h1>
+        <div class="innovation-redesign-grid-wrapper">
+            <!-- Card 1 -->
+            <div class="innovation-item inno-border-left">
+                <div class="image-content-block">
+                    <div class="image-block">
+                        <img src="https://www.tatvasoft.com/public/images//agile-based-decision-making.jpg" alt="User-Oriented Approach">
+                    </div>
+                    <div class="content-block">
+                        <h3>User-Oriented Approach</h3>
+                        <p>Our tailored software solutions emphasize understanding client needs to deliver seamless end-user experiences. With this approach, we prioritize collaboration, minimizing challenges and maximizing usability, to create software that meets specific client goals effectively.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="innovation-item inno-border-right">
+                <div class="image-content-block">
+                    <div class="image-block">
+                        <img src="https://www.tatvasoft.com/public/images/user-oriented-approach.jpg" alt="Agile Based Decision Making">
+                    </div>
+                    <div class="content-block">
+                        <h3>Agile-Based Decision Making</h3>
+                        <p>Leveraging agile methodologies, we ensure efficient development cycles with strategic planning and high-quality output. Our agile approach focuses on optimizing time, budget, and resources to deliver robust, flexible software solutions for evolving business needs.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="innovation-item inno-border-left">
+                <div class="image-content-block">
+                    <div class="image-block">
+                        <img src="https://www.tatvasoft.com/public/images/cloud-and-devops.jpg" alt="Team Augmentation">
+                    </div>
+                    <div class="content-block">
+                        <h3>Team Augmentation</h3>
+                        <p>Our team augmentation services allow clients to enhance their capabilities with skilled software engineers. This model supports scalability, cost-efficiency, and expertise to drive project success with both short- and long-term solutions.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="innovation-item inno-border-right">
+                <div class="image-content-block">
+                    <div class="image-block">
+                        <img src="https://www.tatvasoft.com/public/images/team-augmentation.jpg" alt="Cloud & DevOps">
+                    </div>
+                    <div class="content-block">
+                        <h3>Cloud & DevOps</h3>
+                        <p>Transform your business with our Cloud & DevOps services. We streamline operations, enabling digital transformation through automated processes. Our solutions enhance productivity, flexibility, and agility, adapting seamlessly to evolving business requirements.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Case End -->
+    
+      <!-- end of why choose us  -->
 
 
     <!-- FAQs Start -->
@@ -620,55 +741,59 @@
     </div> -->
     <!-- Team End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
-                    <h1 class="mb-4">What Say Our Clients!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
-                </div>
-                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel border-start border-primary">
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
+                <h1 class="mb-4">What Say Our Clients!</h1>
+                <p class="mb-4">At XYLARIS Technology, we pride ourselves on delivering exceptional services and solutions. Here’s what our clients have to say about their experiences with us.</p>
+                <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+            </div>
+            <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel testimonial-carousel border-start border-primary">
+                    <div class="testimonial-item ps-5">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="fs-4">"XYLARIS Technology provided us with an outstanding level of service. Their attention to detail and commitment to our project was exceptional. Highly recommend!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Riya Kapoor</h5>
+                                <span>CEO, Tech Innovators</span>
                             </div>
                         </div>
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
+                    </div>
+                    <div class="testimonial-item ps-5">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="fs-4">"We have been collaborating with XYLARIS Technology for several projects, and their expertise has significantly improved our operational efficiency!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Vikram Singh</h5>
+                                <span>Operations Manager, Smart Solutions</span>
                             </div>
                         </div>
-                        <div class="testimonial-item ps-5">
-                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
-                                    style="width: 60px; height: 60px;">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">Client Name</h5>
-                                    <span>Profession</span>
-                                </div>
+                    </div>
+                    <div class="testimonial-item ps-5">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="fs-4">"The team at XYLARIS Technology was professional, knowledgeable, and dedicated. They transformed our vision into reality!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Anand Rao</h5>
+                                <span>CTO, Digital Dreams</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item ps-5">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="fs-4">"Working with XYLARIS Technology was a game-changer for us. Their innovative solutions helped us stay ahead in the competitive market!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Neha Iyer</h5>
+                                <span>Marketing Director, NextGen Marketing</span>
                             </div>
                         </div>
                     </div>
@@ -676,7 +801,9 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+</div>
+<!-- Testimonial End -->
+
 
 
     <!-- Newsletter Start -->
